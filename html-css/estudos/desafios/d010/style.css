@@ -14,6 +14,7 @@ header{
     background-image: linear-gradient(to bottom, #3DB859, #206430);
     margin: 0px;
     padding: 0px;
+    box-shadow: 0 5px 7px rgba(0, 100, 0, 0.295);
 }
 
 header > h1{
@@ -56,6 +57,13 @@ main{
     padding: 0em 3em;
     margin: 0px;
     margin-bottom: 40px;
+    padding: 0px;
+}
+
+main p{
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
 }
 
 main > article > section > h1{
@@ -68,13 +76,13 @@ main > article > section > h2{
 
 article{
     margin: auto;
-    width: auto;
+    max-width: 900px;
     background-color: white;
-    margin: 0em 1em 0em 2em;
+    margin: auto;
     /*margin: 0px 150px 0px 150px;*/
     padding: 10px;
     border-radius:0px 0px 10px 10px;
-    box-shadow: 1px 1px 4px rgba(0, 100, 0, 0.615), -1px 0px 4px rgba(0, 100, 0, 0.615);
+    box-shadow: 0px 0px 4px rgba(0, 100, 0, 0.615);
 }
 
 h1#titulo-principal {
@@ -202,4 +210,13 @@ footer{
 }
 p#rodape {
     text-align: center;
+}
+
+footer a{
+    color: white;
+    font-weight: bolder;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
