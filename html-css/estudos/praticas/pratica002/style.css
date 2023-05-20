@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+ @import url('https://fonts.googleapis.com/css2?family=Anton&family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(57, 121, 226);
+    display: flex;
+    padding: 16px 5vw;
+    color: white;
+    text-align: center;
+}
+
+header > div{
+    margin: auto;
+}
+
+header h1{
+    font-family: Russo One;
+    font-size: 4em;
+}
+
+header p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    padding: 5px;
+}
+
+.titulos{
+    font-size: 1.2em;
+    margin: 30px 0;
+    text-align: center;
+}
+
+h2#periodos{
+    margin: 45px 0;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 20px;
+    text-align: center;
+    margin: auto;
+    font-size: 0.8em;
+}
+
+th{
+    font-size: 16px;
+}
+
+td{
+    width: 120px;
+    height: 80px;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 12px;
+    background-color: midnightblue;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.397);
+}
+
+td:hover{
+    transform: scale(1.2);
+}
+
+.disciplina{
+    position: relative;
+    top: 5%;
+    height: 70%;
+    background-color: white;
+    border-radius: 12px 12px 0 0;
+    padding: 4px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.397);
+}
+
+.carga{
+    position: relative;
+    top: 5%;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.445);
+    padding: 6px 0 4px 0;
+}
+
+.seminarios{
+    background-color: rgb(221, 221, 61);
+}
+
+.estagio{
+    background-color: red;
+}
+
+.matematica{
+    background-color: brown;
+}
+
+.letras{
+    background-color: green;
+}
+
+.direito{
+    background-color: lime;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(57, 121, 226);
+    color: white;
+}
+footer p{
+    padding: 8px 5vw;
+    font-size: 1.1em;
+}
+footer > p > a{
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+}
