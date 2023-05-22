@@ -60,6 +60,10 @@ div.grid-item{
     padding: 3px;
 }
 
+div.grid-item:hover{
+    transform: scale(1.2);
+}
+
 div.grid-item-p{
     text-align: center;
 }
